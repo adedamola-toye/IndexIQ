@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexIQ.API", "IndexIQ.API\IndexIQ.API.csproj", "{ABE98866-AB50-DFC3-31D4-B34A60A002AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexIQ.Tests", "IndexIQ.Tests\IndexIQ.Tests.csproj", "{D649DDF6-5CFB-C47D-5AAD-A1A18D3DAE03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABE98866-AB50-DFC3-31D4-B34A60A002AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE98866-AB50-DFC3-31D4-B34A60A002AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE98866-AB50-DFC3-31D4-B34A60A002AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE98866-AB50-DFC3-31D4-B34A60A002AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D649DDF6-5CFB-C47D-5AAD-A1A18D3DAE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D649DDF6-5CFB-C47D-5AAD-A1A18D3DAE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D649DDF6-5CFB-C47D-5AAD-A1A18D3DAE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D649DDF6-5CFB-C47D-5AAD-A1A18D3DAE03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7514F58-B3D8-4EED-BDE6-3B5A86F1ACD0}
+	EndGlobalSection
+EndGlobal
