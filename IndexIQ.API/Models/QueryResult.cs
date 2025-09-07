@@ -4,7 +4,7 @@ namespace IndexIQ.API.Models
     {
         public required string DocumentId { get; set; }
         public string? FileName { get; set; }
-        public required double Score { get; set; } //Relevance score
+        public required double Score { get; set; } //Relevance score to know which document matches the query most. 
         public string? Snippet { get; set; } //A snippet of the content where the query matched
     }
 }
