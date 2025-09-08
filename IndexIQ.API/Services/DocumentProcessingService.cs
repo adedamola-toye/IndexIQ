@@ -12,7 +12,7 @@ using System.Text;  // for .docx
 public class DocumentProcessingService : IDocumentProcessingService
 {
 
-    public async Task<Document> ProcessSingleFileAsync(IFormFile file)
+    public async Task<IndexIQ.API.Models.Document> ProcessSingleFileAsync(IFormFile file)
     {
         if (file == null || file.Length == 0)
         {
@@ -32,9 +32,9 @@ public class DocumentProcessingService : IDocumentProcessingService
         return new IndexIQ.API.Models.Document(autoID, file.FileName, fileContent);
     }
 
-    public async Task<List<Document>> ProcesssBatchFilesAsync(List<IFormFile> files)
+    public async Task<List<IndexIQ.API.Models.Document>> ProcesssBatchFilesAsync(List<IFormFile> files)
     {
-        var documents = new List<Document>();
+        var documents = new List<IndexIQ.API.Models.Document>();
         foreach (var file in files)
         {
             var doc = await ProcessSingleFileAsync(file);
@@ -97,10 +97,10 @@ public class DocumentProcessingService : IDocumentProcessingService
     }
     public async Task<string> ExtractExcelAsync(IFormFile file)
     {
-
+        return "Excel extraction not implemented yet.";
     }
     public async Task<string> ExtractPowerpointAsync(IFormFile file)
     {
-
+         return "PowerPoint extraction not implemented yet.";
     }
 }

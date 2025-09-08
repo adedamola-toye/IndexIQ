@@ -19,7 +19,7 @@ namespace IndexIQ.Tests
             IDocumentProcessingService docService = new DocumentProcessingService();
 
             //Act
-            Document result = await docService.ProcessFileAsync(file);
+            Document result = await docService.ProcessSingleFileAsync(file);
 
             Assert.NotNull(result);
             Assert.Equal("test.txt", result.FileName);
